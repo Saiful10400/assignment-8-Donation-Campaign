@@ -1,0 +1,63 @@
+
+.helt{
+    color: #0052FF;
+}
+.heltbg{
+    background-color: #0052FF;
+
+}
+.edut{
+    color:#FF444A ;
+}
+.edutbg{
+    background-color:#FF444A ;
+
+}
+.clot{
+    color: #79C23F;
+}
+.clotbg{
+    background-color: #79C23F;
+
+}
+.fot{
+    color: #F87147;
+}
+.fotbg{
+    background-color: #F87147;
+
+}
+
+
+
+.helcbg{
+background-color: rgba(0, 82, 255, 0.20);
+}
+.educbg{
+background-color: rgba(255, 68, 74, 0.20);
+}
+.clocbg{
+background-color: rgba(121, 194, 63, 0.20);
+}
+.focbg{
+background-color: rgba(248, 113, 71, 0.20);
+}
+
+
+/*  */
+
+.helcdbg{
+background-color: rgba(0, 82, 255, 0.15);
+}
+.educdbg{
+background-color: rgba(255, 68, 74, 0.15);
+}
+.clocdbg{
+background-color: rgba(121, 194, 63, 0.15);
+}
+.focdbg{
+background-color: rgba(248, 113, 71, 0.15);
+}
+
+/*  */
+

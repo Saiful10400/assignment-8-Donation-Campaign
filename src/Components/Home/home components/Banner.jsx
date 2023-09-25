@@ -12,9 +12,9 @@ const Banner = ({ data }) => {
     const justifiedData = data.filter(
       (item) => item.category.toUpperCase() === inputfield.toUpperCase()
     );
-    setShowData(justifiedData);
+    justifiedData.length>0 && setShowData(justifiedData)
   };
-  console.log(showData);
+
 
   return (
     <>
