@@ -19,7 +19,7 @@ const Banner = ({ data }) => {
   return (
     <>
       <div className="flex flex-col justify-center items-center gap-10 py-44 banner ">
-        <h1 className="text-center text-5xl font-bold">
+        <h1 className="text-center text-3xl lg:text-5xl font-bold">
           I Grow By Helping People In Need
         </h1>
         <div className="flex justify-center items-center">
@@ -27,7 +27,7 @@ const Banner = ({ data }) => {
             ref={getinput}
             type="text"
             placeholder="Search here...."
-            className="input input-bordered w-full max-w-xs rounded-none rounded-bl-lg rounded-tl-lg "
+            className="input input-bordered w-full w-36 lg:max-w-xs rounded-none rounded-bl-lg rounded-tl-lg "
           />
           <button
             className="btn text-white text-base font-semibold bg-[#FF444A] py-[24px] leading-[6px] px-7  rounded-none rounded-br-lg rounded-tr-lg  "
@@ -38,7 +38,7 @@ const Banner = ({ data }) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 mt-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 px-3 lg:px-0 lg:grid-cols-4 gap-6 mt-24">
         {
             showData.map((item,idx)=><Cart key={idx} data={item} ></Cart>)
         }
