@@ -4,6 +4,7 @@ import Home from "./Components/Home/Home";
 import Error from "./Components/Error";
 import Page from "./Components/Home/Page"
 import Donation from "./Components/Donation/Donation";
+import Statistics from "./Components/Statistics/Statistics";
 
 
 const CreatedRoutes = createBrowserRouter([
@@ -28,7 +29,7 @@ const CreatedRoutes = createBrowserRouter([
       },
       {
         path:"/statistic",
-        element:<h2>hellow saiful</h2>
+        element:<Statistics></Statistics>
       }
     ],
   },

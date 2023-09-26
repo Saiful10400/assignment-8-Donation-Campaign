@@ -10,7 +10,6 @@ const Donation = () => {
   } else {
     localstorageData = [];
   }
-console.log(localstorageData.length)
   return (
     <>
       <div className={localstorageData.length<1 ? "hidden" : "block"}>
