@@ -28,8 +28,8 @@ const Donation = () => {
         </div>
 
         <div className="text-center">
-          <button onClick={()=>setIsShow(!isshow)} className={`btn my-10 bg-green-600 text-xl  font-semibold text-white ${localstorageData.length>=5? "inline-block" :"hidden"}`}>
-            {isshow?"See less" : "See all"}
+          <button onClick={()=>setIsShow(!isshow)} className={`btn my-10 bg-green-600 text-xl ${!isshow? "block":"hidden"}  font-semibold text-white ${localstorageData.length>=5 ? "inline-block" :"hidden"}`}>
+            See all
           </button>
         </div>
       </div>
