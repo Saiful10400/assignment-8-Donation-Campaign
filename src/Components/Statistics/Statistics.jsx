@@ -1,6 +1,6 @@
 import { PieChart, Pie, Cell } from "recharts";
 
-const COLORS = [ "#00C49F","#FF444A"];
+const COLORS = [ "#FF444A","#00C49F"];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -39,14 +39,14 @@ const Statistics = () => {
   }
 
   const data = [
-    { name: "TotalDonate", value: 12 },
-    { name: "Donated", value: localData },
+      { name: "your donate", value: localData },
+      { name: "total donate", value: 12 },
   ];
 
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="text-2xl">
-        <PieChart height={500} width={500}>
+        <PieChart height={700} width={700}>
           <Pie
             data={data}
             cx="50%"
