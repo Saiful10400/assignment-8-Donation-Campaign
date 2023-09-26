@@ -45,12 +45,12 @@ swal({
 }
 
   return (
-    <div>
-      <img  className="w-full h-[90vh] object-cover rounded-lg " src={foundedData.imgCover} alt="" />
-      <div className="min-w-full min-h-[130px] bg-[#0000009c] relative top-[-130px] rounded-bl-lg rounded-br-lg flex justify-start items-center">
-        <button onClick={onclickHandle} className={`btn ${foundedData.textbg} ml-9 border-none rounded-md text-white text-lg font-normal py-7 px-4 leading-[0]`}>Donate $ {foundedData.price}</button>
+    <div className="px-2 lg:px-0">
+      <img  className="w-full lg:h-[90vh] object-cover rounded-lg " src={foundedData.imgCover} alt="" />
+      <div className="min-w-full lg:min-h-[130px]  lg:bg-[#0000009c] lg:relative  lg:top-[-130px] rounded-bl-lg rounded-br-lg flex justify-start items-center">
+        <button onClick={onclickHandle} className={`btn ${foundedData.textbg} mt-3 lg:mt-0  lg:ml-9 border-none rounded-md text-white text-base lg:text-lg font-normal lg:py-7 lg:px-4 lg:leading-[0]`}>Donate $ {foundedData.price}</button>
       </div>
-      <div className="relative mt-[-80px]">
+      <div className="lg:relative lg:mt-[-80px]">
         <h1 className="text-[40px] font-bold">{foundedData.title}</h1>
         <p className="text-[15px] mt-6 font-normal text-gray-700">{foundedData.description}</p>
       </div>

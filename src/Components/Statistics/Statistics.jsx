@@ -1,6 +1,6 @@
 import { PieChart, Pie, Cell } from "recharts";
 
-const COLORS = [ "#FF444A","#00C49F"];
+const COLORS = [ "#00C49F","#FF444A",];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -46,7 +46,7 @@ const Statistics = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div className="text-2xl">
-        <PieChart height={700} width={700}>
+        <PieChart height={380} width={380}>
           <Pie
             data={data}
             cx="50%"
@@ -64,12 +64,12 @@ const Statistics = () => {
           </Pie>
         </PieChart>
       </div>
-      <div className="flex justify-center items-center gap-14">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-14">
         <div className="flex justify-center items-center gap-4">
-          <span className="text-lg font-normal">Your Donation</span> <div className="w-28 rounded-sm h-3 bg-[#FF444A]"> </div>
+          <span className="text-lg font-normal">Your Donation</span> <div className="w-28 rounded-sm h-3 bg-[#00C49F] "> </div>
         </div>
         <div className="flex justify-center items-center gap-4">
-          <span className="text-lg font-normal">Total Donation</span> <div className="w-28 rounded-sm h-3 bg-[#00C49F]"> </div>
+          <span className="text-lg font-normal">Total Donation</span> <div className="w-28 rounded-sm h-3 bg-[#FF444A]"> </div>
         </div>
         
       </div>

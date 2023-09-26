@@ -13,7 +13,7 @@ const Donation = () => {
   return (
     <>
       <div className={localstorageData.length<1 ? "hidden" : "block"}>
-        <div className="grid grid-cols-2 gap-6 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
           {
 
             isshow ? localstorageData.map((item, idx) => (

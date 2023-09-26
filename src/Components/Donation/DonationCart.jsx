@@ -6,7 +6,7 @@ const DonationCart = ({data}) => {
 
     return (
         <div className={`${cardBg} flex gap-6 rounded-lg`}>
-            <img src={imgDon} alt="" />
+            <img  src={imgDon} alt="" />
             <div className="py-6">
                 <span className={`${categoryBg} ${textButton} text-sm font-normal px-2 py-1 rounded`}>{category}</span>
                 <h1 className="text-2xl font-semibold my-2">{title}</h1>
