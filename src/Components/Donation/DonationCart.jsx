@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const DonationCart = ({data}) => {
     const{price,title,category,textButton,categoryBg,cardBg,imgDon,textbg,id}=data
-    console.log(textbg)
+
     return (
         <div className={`${cardBg} flex gap-6 rounded-lg`}>
             <img src={imgDon} alt="" />

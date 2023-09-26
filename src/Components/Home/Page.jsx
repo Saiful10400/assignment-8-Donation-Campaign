@@ -1,6 +1,8 @@
-import { stringify } from "postcss";
+
+import swal from "sweetalert";
 import "./home components/Cart.css"
-import {  json, useLoaderData, useParams } from "react-router-dom";
+import {   useLoaderData, useParams } from "react-router-dom";
+
 
 
 
@@ -29,6 +31,16 @@ const localstorageData=JSON.parse(localDataQueri())
 const dataTobeSet=[...localstorageData,foundedData]
 localStorage.setItem("cart",JSON.stringify(dataTobeSet))
 
+// sweet aleart.
+
+swal({
+  title: "Good job!",
+  text: "You Donated successfully.",
+  icon: "success",
+  button: "Done",
+});
+
+// 
 
 }
 

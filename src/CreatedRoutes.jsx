@@ -25,6 +25,10 @@ const CreatedRoutes = createBrowserRouter([
       {
         path:"/donation",
         element:<Donation></Donation>
+      },
+      {
+        path:"/statistic",
+        element:<h2>hellow saiful</h2>
       }
     ],
   },
