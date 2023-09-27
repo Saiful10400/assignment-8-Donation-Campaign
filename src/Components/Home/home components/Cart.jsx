@@ -16,7 +16,7 @@ const Cart = ({ data }) => {
   return (
     <div onClick={onclickHandle} className={`card card-compact saifulBg shadow-md ${cardBg} cursor-pointer`}>
       <figure>
-        <img className="w-full" src={img} alt="Shoes" />
+        <img className="w-full h-[237px] object-cover" src={img} alt="Shoes" />
       </figure>
       <div className="my-4 ml-4 ">
         <span

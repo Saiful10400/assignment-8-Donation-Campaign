@@ -46,7 +46,7 @@ swal({
 
   return (
     <div className="px-2 lg:px-0">
-      <img  className="w-full lg:h-[90vh] object-cover rounded-lg " src={foundedData.imgCover} alt="" />
+      <img  className="w-full lg:h-[90vh] object-cover rounded-lg " src={foundedData.img} alt="" />
       <div className="min-w-full lg:min-h-[130px]  lg:bg-[#0000009c] lg:relative  lg:top-[-130px] rounded-bl-lg rounded-br-lg flex justify-start items-center">
         <button onClick={onclickHandle} className={`btn ${foundedData.textbg} mt-3 lg:mt-0  lg:ml-9 border-none rounded-md text-white text-base lg:text-lg font-normal lg:py-7 lg:px-4 lg:leading-[0]`}>Donate $ {foundedData.price}</button>
       </div>

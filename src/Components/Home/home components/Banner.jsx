@@ -27,7 +27,7 @@ const Banner = ({ data }) => {
             ref={getinput}
             type="text"
             placeholder="Search here...."
-            className="input input-bordered w-full w-36 lg:max-w-xs rounded-none rounded-bl-lg rounded-tl-lg "
+            className=" focus:outline-none input input-bordered w-full w-36 lg:max-w-xs rounded-none rounded-bl-lg rounded-tl-lg "
           />
           <button
             className="btn text-white text-base font-semibold bg-[#FF444A] py-[24px] leading-[6px] px-7  rounded-none rounded-br-lg rounded-tr-lg  "
